@@ -1,4 +1,14 @@
-header .header-top .header-top-end .header-social-media .social-media-items li{
+
+header .header-top .header-top-right .logo img{
+    width:279px;
+    height:60px;
+}
+
+header .header-top .nav-item {
+   list-style:none;
+}
+
+header .header-top .header-top-left .header-social-media .social-media-items li{
     width: 25px;
     display: inline-block;
     position: relative;
@@ -6,21 +16,21 @@ header .header-top .header-top-end .header-social-media .social-media-items li{
     border-radius: 60%;
     align-items: center; 
 }
-header .header-top .header-top-end .header-social-media .social-media-items .messenger-facebook{
+header .header-top .header-top-left .header-social-media .social-media-items .messenger-facebook{
     background: #1877F2;
 }
-header .header-top .header-top-end .header-social-media .social-media-items .whatsapp{
+header .header-top .header-top-left .header-social-media .social-media-items .whatsapp{
     background: #25D366;
 }
-header .header-top .header-top-end .header-social-media .social-media-items .twitter{
+header .header-top .header-top-left .header-social-media .social-media-items .twitter{
     background: #1DA1F3;
 }
-header .header-top .header-top-end .header-social-media .social-media-items li a{
+header .header-top .header-top-left .header-social-media .social-media-items li a{
     position: absolute;
     left: 5px;
     top: 4px;
 }
-header .header-top .header-top-end .header-social-media .social-media-items li a i{
+header .header-top .header-top-left .header-social-media .social-media-items li a i{
     color: #fff;
 }
 
@@ -70,4 +80,6 @@ header .header-bottom nav .nav__list .account{
      position: relative;
      top:7px;
    }
+
+
 
