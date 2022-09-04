@@ -3,5 +3,10 @@
 
 
 @import "./components/_header.css";
+@import "./components/_card-top.css";
+@import "./components/_card-bottom.css";
+@import "./components/_card-product.css";
+@import "./components/_accordion.css";
+@import "./components/_footer.css";
 
 

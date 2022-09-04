@@ -1,0 +1,45 @@
+.card-top .card .card-img {
+    width: 72px;
+    height: 72px;
+    margin: 6px;
+}
+
+.card-top .card {
+    flex-direction: row;
+}
+
+.card-top .card-body p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #5F5F5F;
+}
+
+.card-top .card-body {
+    padding: 0px;
+    margin: 6px;
+}
+
+.card-top .card-body .card-title {
+    color: #000000;
+}
+
+.card-top .card-body .card-link {
+    position: absolute;
+    right: 20px;
+    color: #0061A3;
+    text-decoration: underline;
+}
+
+.card-top .card-body .card-title,
+.card-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+ 
+}

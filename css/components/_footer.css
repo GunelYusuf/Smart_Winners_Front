@@ -1,0 +1,74 @@
+footer .sec-link .useful_links ul li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+footer .sec-link .smartwinner_text .about
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #000000;
+}
+
+footer .sec-link .smartwinner_text .address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+}
+
+footer .sec-link .payment ul{
+  flex-direction: row;
+}
+footer .sec-link .payment ul li{
+    align-items:flex-start;
+}
+
+footer .whatsapp a{
+    width: 35px;
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    border-radius: 60%;
+    align-items: center;
+    background: #25D366;
+}
+
+footer .whatsapp a i{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+}
+
+footer .social_media_footer a{
+    width: 35px;
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    border-radius: 60%;
+    align-items: center;
+    background: #1877F2;
+   }
+
+footer .social_media_footer a i{
+    color:#fff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+footer .social_media_footer .twitter{
+    background: #1DA1F3;
+}
+
+

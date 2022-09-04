@@ -1,0 +1,20 @@
+.faq .accordion .accordion-border{
+   border-top-style: none;
+   border-right-style: none;
+   border-left-style: none;
+   
+}
+
+.faq .right_left{
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.faq .accordion .accordion-item .accordion-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0061A3;
+}
