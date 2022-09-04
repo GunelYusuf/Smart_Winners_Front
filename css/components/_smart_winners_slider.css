@@ -1,0 +1,80 @@
+
+
+.smart-winners-slider .carousel .carousel-inner .carousel-item .slider-img{
+    max-height:462px;
+    border-radius: 8px;
+}
+
+.smart-winners-slider .carousel div.carousel-footer{
+    padding: 10px;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+.smart-winners-slider .carousel .carousel-footer strong , span,em{
+    color: white;
+    z-index: 4;
+    opacity: 1;
+}
+
+.smart-winners-slider .carousel .slider-box{
+    position: absolute;
+    width: 98.2%;
+    top: 37%;
+    text-align: center;
+    z-index: 4;
+}
+
+.smart-winners-slider .carousel .slider-box .slider-box-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #fefefe;
+    justify-content: center;
+    display: inline-grid;
+    letter-spacing: 4px;
+}
+
+.smart-winners-slider .carousel .slider-box .slider-box-title  .text{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.smart-winners-slider .carousel .slider-box .slider-box-title  .money{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+}
+.smart-winners-slider .carousel .slider-box   p{
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 52px;
+    color: #fff;
+    
+}
+
+.smart-winners-slider .carousel  .slider-box .slider-box-button{
+    padding: 9px 26px 9px;
+    display: inline;
+    cursor: pointer;
+    background: rgb(254,142,0);
+    background: linear-gradient(124deg, rgba(254,142,0,1) 0%, rgba(255,61,0,1) 100%);
+    z-index: 4;
+    text-align: center;
+    line-height: 52px;
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+

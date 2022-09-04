@@ -3,10 +3,13 @@
 
 
 @import "./components/_header.css";
+@import "./components/_smart_winners_slider.css";
 @import "./components/_card-top.css";
 @import "./components/_card-bottom.css";
 @import "./components/_card-product.css";
 @import "./components/_accordion.css";
 @import "./components/_footer.css";
+@import "./components/_biggest_lottery.css";
+@import "./components/_our-latest-winners.css"
 
 
