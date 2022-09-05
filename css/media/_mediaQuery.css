@@ -1,0 +1,401 @@
+@media only screen and (max-width: 991.98px) {
+   
+
+    /* Header Media Query */
+    header .header-top .header-top-right .logo {
+        text-align: center;
+    }
+
+    header .header-top .header-top-right .logo img {
+        width: 182px;
+        height: 44px;
+    }
+
+    header .header-bottom nav {
+        display: none;
+    }
+
+    header .header-items {
+        position: relative;
+    }
+
+    header .header-items a.user-icon-fa {
+        position: absolute;
+        top: 67px;
+        right: 25px;
+        color: #ffff;
+        background: #0061A3;
+        padding: 3px 8px 3px;
+        border-radius: 4px;
+        display: block !important;
+    }
+
+    header .header-items a.icon {
+        color: #F30000;
+        display: block !important;
+        position: absolute;
+        top: 70px;
+    }
+
+    header .header-top .header-top-left .header-social-media .social-media-items li {
+        display: none;
+    }
+
+    header .header-top .header-top-left .nav-item {
+        display: none;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance .user-balance-list {
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+    }
+
+   header .header-items .header-top .header-top-right .user-balance ul li {
+       font-size: 13px;
+       margin-top: 10px;
+   }
+    /* Header Media Query End */
+
+    /* Smart Winners Slider Media Query */
+    .smart-winners-slider .carousel .carousel-inner .slider-box {
+        top: 27%;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .text {
+        font-size: 27px;
+        line-height: 57px;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .money {
+        font-size: 38px;
+        line-height: 15px;
+        letter-spacing: 3;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-description {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 59px;
+        letter-spacing: 5;
+    }
+
+    .smart-winners-slider .carousel .slider-box .slider-box-button {
+        padding: 8px 35px 10px;
+        font-size: 18px;
+        border-radius: 7px;
+
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .carousel-footer {
+        padding: 2px;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .carousel-footer strong,
+    span,
+    em {
+        font-size: 10px;
+    }
+
+    /* Smart Winners Slider Media Query End */
+}
+
+@media only screen and (max-width: 767.98px) {
+
+    /* Header Media Query */
+    header .header-items a.user-icon-fa {
+        position: absolute;
+        top: 67px;
+        right: 25px;
+        color: #ffff;
+        background: #193d55;
+        padding: 3px 8px 3px;
+        border-radius: 4px;
+        display: block !important;
+    }
+
+    header .header-items a.icon {
+        color: #F30000;
+        display: block !important;
+        position: absolute;
+        top: 70px;
+    }
+
+
+    header .header-items .header-top .header-top-right .user-balance ul li {
+        font-size: 10px;
+        margin-top: 10px;
+        
+    }
+
+   
+
+    /* Header Media Query End */
+
+        /* Smart Winners Slider Media Query */
+        .smart-winners-slider .carousel .carousel-inner .slider-box {
+            top: 27%;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .text {
+            font-size: 23px;
+            line-height: 44px;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .money {
+            font-size: 32px;
+            line-height: 14px;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-description {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 48px;
+            letter-spacing: 2 !important;
+        }
+    
+        .smart-winners-slider .carousel .slider-box .slider-box-button {
+            padding: 6px 25px 6px;
+            font-size: 17px;
+            border-radius: 7px;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .carousel-footer {
+            padding: 2px;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .carousel-footer strong,
+        span,
+        em {
+            font-size: 10px;
+        }
+    
+        /* Smart Winners Slider Media Query End */
+       .faq{
+        display: none;
+       }
+
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    /* Header Media Query */
+    header .header-top .header-top-right .logo {
+        text-align: center;
+    }
+
+    header .header-top .header-top-right .logo img {
+        width: 182px;
+        height: 44px;
+    }
+
+    header .header-bottom nav {
+        display: none;
+    }
+
+    header .header-items {
+        position: relative;
+    }
+
+    header .header-items a.user-icon-fa {
+        position: absolute;
+        top: 67px;
+        right: 25px;
+        color: #ffff;
+        background: #0061A3;
+        padding: 3px 8px 3px;
+        border-radius: 4px;
+        display: block !important;
+    }
+
+    header .header-items a.icon {
+        color: #F30000;
+        display: block !important;
+        position: absolute;
+        top: 70px;
+    }
+
+    header .header-top .header-top-left .header-social-media .social-media-items li {
+        display: none;
+    }
+
+    header .header-top .header-top-left .nav-item {
+        display: none;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance .user-balance-list {
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance ul li {
+        font-size: 10px;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance ul li {
+        font-size: 11px;
+    }
+
+    /* Header Medua Query end */
+
+    /* Smart Winners Slider Media Query */
+    .smart-winners-slider .carousel .carousel-inner .slider-box {
+        top: 27%;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .text {
+        font-size: 17px;
+        line-height: 36px;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .money {
+        font-size: 24px;
+        line-height: 7px;
+        letter-spacing: 4;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-description {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 45px;
+        letter-spacing: 4;
+                
+    }
+
+    .smart-winners-slider .carousel .slider-box .slider-box-button {
+        padding: 6px 23px 6px;
+        font-size: 16px;
+        border-radius: 7px;
+
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .carousel-footer {
+        padding: 2px;
+    }
+
+    .smart-winners-slider .carousel .carousel-inner .carousel-footer strong,
+    span,
+    em {
+        font-size: 10px;
+    }
+
+    /* Smart Winners Slider Media Query End */
+}
+
+@media only screen and (max-width: 409.98px) {
+
+    header .header-top .header-top-right .logo {
+        text-align: center;
+    }
+
+    header .header-top .header-top-right .logo img {
+        width: 182px;
+        height: 44px;
+    }
+
+    header .header-bottom nav {
+        display: none;
+    }
+
+    header .header-items {
+        position: relative;
+    }
+
+    header .header-items a.user-icon-fa {
+        position: absolute;
+        top: 67px;
+        right: 25px;
+        color: #ffff;
+        background: #0061A3;
+        padding: 3px 8px 3px;
+        border-radius: 4px;
+        display: block !important;
+    }
+
+    header .header-items a.icon {
+        color: #F30000;
+        display: block !important;
+        position: absolute;
+        top: 70px;
+    }
+
+    header .header-top .header-top-left .header-social-media .social-media-items li {
+        display: none;
+    }
+
+    header .header-top .header-top-left .nav-item {
+        display: none;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance .user-balance-list {
+        display: flex;
+        flex-direction: row;
+        gap: 250px;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance ul li {
+        font-size: 10px;
+    }
+
+    header .header-items .header-top .header-top-right .user-balance ul li {
+        font-size: 11px;
+    }
+
+        /* Smart Winners Slider Media Query */
+        .smart-winners-slider .carousel .carousel-inner .slider-box {
+            top: 27%;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .text {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-title .money {
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 4;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .slider-box .slider-box-description {
+            font-weight: bold;
+            font-size: 8px;
+            line-height: 19px;
+            letter-spacing: 2 !important;
+    
+        }
+    
+        .smart-winners-slider .carousel .slider-box .slider-box-button {
+            padding: 3px 14px 3px;
+            font-size: 15px;
+            border-radius: 7px;
+    
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .carousel-footer {
+            padding: 2px;
+        }
+    
+        .smart-winners-slider .carousel .carousel-inner .carousel-footer strong,
+        span,
+        em {
+            font-size: 10px;
+        }
+    
+        /* Smart Winners Slider Media Query End */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

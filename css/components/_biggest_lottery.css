@@ -1,6 +1,6 @@
 .biggest-lottery .biggest-lottery-winner ,.our-lottery-winner{
     background: #F30000;
-    padding: 5px 0px 5px;
+    padding: 10px 0px 10px;
     border-radius: 8px;
     text-align: center;
     align-items: center;
@@ -10,20 +10,27 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 26px;
 }
 
 
-.biggest-lottery  .biggest-lottery-wrapper .biggest-lottery-title , .won , .biggest-lottery-text{
+.biggest-lottery  .biggest-lottery-wrapper .biggest-lottery-title .won{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
     line-height: 36px;
     text-transform: uppercase;
+    color: #000000;;
 }
 
-.biggest-lottery  .biggest-lottery-wrapper  .biggest-lottery-text{
+.biggest-lottery .biggest-lottery-wrapper .biggest-lottery-title .biggest-lottery-text{
     color: #0061A3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 22px;
 }
 
 .biggest-lottery  .biggest-lottery-wrapper  .won{
@@ -34,7 +41,7 @@
     max-width: 251px;
 }
 
-.biggest-lottery .biggest-lottery-right .a{
+.biggest-lottery .biggest-lottery-wrapper .biggest-lottery-right .card .card-body .read{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -59,13 +66,13 @@
     color: #000000;
 }
 
-.biggest-lottery .biggest-lottery-left .biggest-lottery-description .biggest-lottery-date{
+#date_loteriya{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 130%;
-    text-align: center;
+    text-align:center;
     color: #000000;
 }
 
@@ -79,15 +86,16 @@
     background-color: red;
     color: white;
     padding: 0px 4px 1px;
+    font-size: small;
 }
 .biggest-lottery .biggest-lottery-wrapper{
-    outline:1px solid rgb(170, 160, 160);
+    outline:1px solid rgb(228, 211, 211);
     padding: 19px 21px 18px;
 }
 
 .biggest-lottery .biggest-lottery-wrapper .card-btn{
     border-radius: 8px;
-    padding: 6px 52px;
+    padding: 10px 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -96,7 +104,7 @@
     background: #F7D300;
     text-align: center;
     color: #000000;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 

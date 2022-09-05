@@ -14,19 +14,24 @@
     <header>
        <div class="container">
           <div class="row">
-              <div class="header-items">
-                <div class="header-top d-flex justify-content-between flex-wrap mt-5">
-                        <div class="header-top-right d-flex">
+               <div class="header-items">
+                  <a href="" class="user-icon-fa d-none"> <i class="fa-solid fa-user"></i></a>
+                  <a href="" class="icon d-none">
+                        <i class="fa fa-bars fa-xl"></i>
+                  </a>
+                <div class="header-top d-lg-flex justify-content-lg-between flex-wrap mt-5 mb-4">
+                     <div class="header-top-right d-lg-flex">
                             <div class="logo">
                                 <img src="images/logo.svg" alt="Smart Winners Logo">
                             </div>
-                        <div class="user-balance">
-                            <ul class="user-balance-list">
-                                <li class="user-balance-item">Wellcome <span>Roma</span> - <a href="#logout">Logout</a></li>
-                                <li class="user-balance-item">Your Balance: <span>P 0,00</span></li>
-                            </ul>
-                        </div>
-                        </div>
+                          <div class="user-balance">
+                             <ul class="user-balance-list">
+                                <li class="user-balance-item">Welcome Roma  - <a href="#logout">Logout</a></li>
+                                <li class="user-balance-item" id="balance">Your Balance: P 0,00</li>
+                             </ul>
+                            
+                           </div>
+                     </div>
                             <div class="header-top-left">
                                 <div class="header-social-media">
                                     <ul class="social-media-items">
@@ -39,7 +44,7 @@
                                 <div class="nav-item dropdown">
                                     <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i></i>English
+                                        <i></i> <span><img src="images/card-bottom/flag.svg" alt=""></span> English
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#"> <i></i> GR</a>
@@ -50,10 +55,10 @@
                             </div>
 
                 
-                    </div>
+                </div>
                    
                 </div>
-                <div class="header-bottom">
+                <div class="header-bottom mb-3">
                      <nav>
                             <ul class="nav__list">
                                 <li class="nav__list-item">
@@ -73,7 +78,6 @@
                                 </li>
                             </ul>
                     </nav>
-
                 </div>
               </div>
           </div>
@@ -83,7 +87,7 @@
      <section class="smart-winners-slider mt-3 mb-3">
         <div class="container">
             <div class="row">
-                <div class="carousel slide" data-ride="carousel">
+                <div class="carousel slide mb-3" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100 slider-img" src="images/slider/slider.jpeg" alt="Smart Winners Slide">
@@ -94,7 +98,7 @@
                       <div class="slider-box">
                         <div class="slider-box-title">
                             <span class="text">Jackpot</span>
-                            <span class="money">$148,000,000</span>
+                            <span class="money">$205 000 000</span>
                         </div>
                       <p class="slider-box-description">Join the lottery winners club</p>
                       <a href="#" class="slider-box-button">Play Now</a>
@@ -106,7 +110,7 @@
                         </strong>
                         <strong  class="carousel-footer-title-right">
                            <span class="text"> Next Jackpot:<span>
-                           <span class="price">£14,000,000<span>
+                           <span class="price">$205 000 000<span>
                         </strong>
                        </div>
                     </div>
@@ -118,12 +122,12 @@
      </section>
 
 
-    <section class="card-top">
+    <section class="card-top mb-5">
         <div class="container">
             <div class="row">
                 <div class="mb-3 col-lg-4 col-md-6 col-12">
                       <div class="card card-wrapper border rounded">
-                        <img class="card-img" src="images/card/card-icon.svg">
+                        <img class="card-img" src="images/card/Ресурс 1 1.svg">
                         <div class="card-body">
                           <strong class="card-title">You Pick</strong>
                             <a class="card-link" href="#">Play Now &raquo;</a>
@@ -137,22 +141,22 @@
                     <div class="card card-wrapper border rounded">
                       <img class="card-img" src="images/card/card-icon.svg">
                       <div class="card-body">
-                        <strong class="card-title">You Pick</strong>
+                        <strong class="card-title">we buy</strong>
                           <a class="card-link" href="#">Play Now &raquo;</a>
                       <p class="card-text mb-auto">
-                          It’s easy! Pick from over 40 official lottery games you wish to play. Then select your winning numbers.
+                          Once you’ve picked your winning numbers we’ll purchase your ticket on your behalf.
                       </p>
                       </div>
                     </div>
               </div>
               <div class="mb-3 col-lg-4 col-md-6 col-12">
                 <div class="card card-wrapper border rounded">
-                  <img class="card-img" src="images/card/card-icon.svg">
+                  <img class="card-img" src="images/card/Group.svg">
                   <div class="card-body">
-                    <strong class="card-title">You Pick</strong>
+                    <strong class="card-title">you win!!!</strong>
                       <a class="card-link" href="#">Play Now &raquo;</a>
                   <p class="card-text mb-auto">
-                      It’s easy! Pick from over 40 official lottery games you wish to play. Then select your winning numbers.
+                     When you win, we’ll automatically credit your account the full value of your winnings.
                   </p>
                   </div>
                 </div>
@@ -161,9 +165,12 @@
         </div>
     </section>
 
-<section class="card-bottom">
+<section class="card-bottom mb-5">
    <div class="container">
     <div class="row">
+        <div class="card-bottom-title mb-5">
+            <h4>BIGGEST UPCOMING LOTTERY DRAWS </h4>
+        </div>
         <div class="mb-3 col-xl-4 col-lg-6 col-md-6 col-12">
             <div class="card">
                 <div class="card-body">
@@ -223,8 +230,98 @@
 </section> 
 
 
-    <section class="product_card">
+    <section class="product_card mb-5">
          <div class="container">
+            <div class="row">
+                  <div class="play_upcoming_lotteries mb-4 ">
+                      <h3 class="text-center">PLAY UPCOMING LOTTERIES ONLINE</h3>
+                    </div>
+                <div class="mb-3 col  col-sm-offset-1">
+                    <div class="card text-center">
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                            <img class="card-img-top border rounded-circle"   src="images/product/mega-millions-card-product.svg" alt="Product Image">
+                        <div class="card-body">
+                            <div class="card-money">
+                                <img src="images/card-bottom/flag.svg" alt="">
+                                <p class="card-title">Mega Millions</p>
+                            </div>
+                             <p class="card-text">$94 000 000</p>
+                             <p class="card-link" href="#"><i class="fa-regular fa-clock"></i> 1:22:01</p>
+                             <a href="#" class="card-btn">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 col">
+                    <div class="card text-center">
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                            <img class="card-img-top border rounded-circle"   src="images/product/mega-millions-card-product.svg" alt="Product Image">
+                        <div class="card-body">
+                            <div class="card-money">
+                                <img src="images/card-bottom/flag.svg" alt="">
+                                <p class="card-title">Mega Millions</p>
+                            </div>
+                             <p class="card-text">$94 000 000</p>
+                             <p class="card-link" href="#"><i class="fa-regular fa-clock"></i> 1:22:01</p>
+                             <a href="#" class="card-btn">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 col">
+                    <div class="card text-center">
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                            <img class="card-img-top border rounded-circle"   src="images/product/mega-millions-card-product.svg" alt="Product Image">
+                        <div class="card-body">
+                            <div class="card-money">
+                                <img src="images/card-bottom/flag.svg" alt="">
+                                <p class="card-title">Mega Millions</p>
+                            </div>
+                             <p class="card-text">$94 000 000</p>
+                             <p class="card-link" href="#"><i class="fa-regular fa-clock"></i> 1:22:01</p>
+                             <a href="#" class="card-btn">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 col">
+                    <div class="card text-center">
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                            <img class="card-img-top border rounded-circle"   src="images/product/mega-millions-card-product.svg" alt="Product Image">
+                        <div class="card-body">
+                            <div class="card-money">
+                                <img src="images/card-bottom/flag.svg" alt="">
+                                <p class="card-title">Mega Millions</p>
+                            </div>
+                             <p class="card-text">$94 000 000</p>
+                             <p class="card-link" href="#"><i class="fa-regular fa-clock"></i> 1:22:01</p>
+                             <a href="#" class="card-btn">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 col">
+                    <div class="card text-center">
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                            <img class="card-img-top border rounded-circle"   src="images/product/mega-millions-card-product.svg" alt="Product Image">
+                        <div class="card-body">
+                            <div class="card-money">
+                                <img src="images/card-bottom/flag.svg" alt="">
+                                <p class="card-title">Mega Millions</p>
+                            </div>
+                             <p class="card-text">$94 000 000</p>
+                             <p class="card-link" href="#"><i class="fa-regular fa-clock"></i> 1:22:01</p>
+                             <a href="#" class="card-btn">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="mb-3 col  col-sm-offset-1">
                     <div class="card text-center">
@@ -315,55 +412,7 @@
          </div>
     </section>
 
-    <section class="faq">
-         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12 what-tab ">
-                        <div class="accordion" id="accordionExample">
-                        <div class="accordion-item accordion-border">
-                         <h2 class="accordion-header" id="headingOne">
-                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                         Can I play the lottery online?
-                        </button>
-                        </h2>
-                       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                       <div class="accordion-body">
-                       <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                 </div>
-           <div class="accordion-item right_left">
-             <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        How will I get my wins?
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item right_left">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      Is it safe to play lottery online?
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-                </div>
-                </div>  
-              
-            </div>
-         </div>
-    </section>
-
-    <section class="biggest-lottery mb-4">
+     <section class="biggest-lottery mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-8">
@@ -382,7 +431,7 @@
                                 <div class="biggest-lottery-description mt-3">
                                     <p class="biggest-lottery-text">UK Lotto results:</p>&#160 &#160<ul><li>07</li><li>07</li><li>07</li><li>07</li><li>07</li></ul>
                                 </div>
-                                <span class="biggest-lottery-date text-right">Date: 20.11.2021</span>
+                                <p id="date_loteriya" class="biggest-lottery-date text-right">Date: 20.11.2021</p>
                             </div>
                         </div>
                         <div class=" col-lg-6 col-md-12">
@@ -393,7 +442,7 @@
                                       <p class="card-text mt-3">Shaun Vincent, from Barnsley, celebrates his £1,158,038 National
                                          Lottery win after his cheque presentation at the Cedar Court Hotel, Wakefield.
                                        </p>
-                                       <a href="#" class="d-block text-center mt-4 mb-4">Read the full story</a>
+                                       <a href="#" class=" read d-block text-center mt-4 mb-4">Read the full story</a>
                                       <a href="#" class="d-block align-self-center card-btn">Play Now</a>
                                     </div>
                                   </div>
@@ -460,13 +509,68 @@
             </div>
         </div>
     </section>
-    
+     <section class="faq mb-5">
+         <div class="container">
+            <div class="row">
+                 <div class="faq-title mb-3">
+                   <h5>FREQUENTLY ASKED QUESTION (F.A.Q.)</h5>
+                 </div>
+                <div class="col-md-8 col-sm-6 col-xs-12 what-tab ">
+                        <div class="accordion" id="accordionExample">
+                        <div class="accordion-item accordion-border">
+                         <h2 class="accordion-header" id="headingOne">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                         Can I play the lottery online?
+                        </button>
+                        </h2>
+                       <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                       <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                 </div>
+           <div class="accordion-item right_left">
+             <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How will I get my wins?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item right_left">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      Is it safe to play lottery online?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+                </div>
+                </div>  
+              
+            </div>
+         </div>
+    </section>
+   
    <footer>
     <div class="container">
-        <div class="row">
+         <div class="row">
             <div class="col-lg-4 col-md-6 footer-useful-links">
-                <div class="social-media whatsapp">
-
+                <div class="footer-background"></div>
+                <div class="social-media whatsapp d-flex">
+                    <ul>
+                      <li class="whatsapp"><a href=""><i class="fa-brands fa-whatsapp" ></i></a></li>
+                    </ul>
+                   <strong>Live chat by WhatsApp</strong>
+                   <p>Customer Service</p>
                 </div>
                 <strong class="footer-links-title d-inline-block  mt-5 mb-3">USEFUL LINKS</strong>
                 <ul class="links">
@@ -498,9 +602,9 @@
             <div class="col-lg-4 col-md-12 footer-security-payment d-lg-grid justify-content-lg-end">
                 <div class="social-media social-media-list">
                        <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                       <li class="messenger-facebook" ><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                       <li class="twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                       <li class="messenger-facebook"><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
                        </ul>
                 </div>
                 <div class="row d-lg-grid">

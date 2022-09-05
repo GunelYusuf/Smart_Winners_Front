@@ -1,3 +1,13 @@
+.card-bottom .card-bottom-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 .card-bottom .card .card-money{
     display: inline-flex;
 }
@@ -7,7 +17,7 @@
 
 .card-bottom .card .card-footer .card-btn {
     border-radius: 8px;
-    padding: 6px 52px;
+    padding: 5px 49px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;

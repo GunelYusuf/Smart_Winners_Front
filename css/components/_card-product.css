@@ -1,3 +1,21 @@
+.product_card .play_upcoming_lotteries{
+    background: #F30000;
+    padding: 10px 0px 10px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+}
+.product_card .play_upcoming_lotteries h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
 .product_card .card{
     width: 208px;
     height: 270px;
@@ -60,7 +78,7 @@
 
 .product_card .card .card-body .card-btn{
     border-radius: 8px;
-    padding: 6px 52px;
+    padding: 7px 52px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;

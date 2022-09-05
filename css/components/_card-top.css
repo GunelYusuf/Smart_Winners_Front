@@ -31,6 +31,11 @@
     right: 20px;
     color: #0061A3;
     text-decoration: underline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .card-top .card-body .card-title,
