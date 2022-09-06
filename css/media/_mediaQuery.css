@@ -384,6 +384,21 @@
         }
     
         /* Smart Winners Slider Media Query End */
+
+        .product_card .card{
+            width: 171px;
+            height: 270px;
+            padding: 11px 13px;
+        }
+      .product_card .card .card-body .card-btn{
+        padding: 4px 29px;
+      }
+     .product_card .card .card-body .card-title{
+        font-size: 13px;
+      }
+    .product_card .card .card-body .card-text{
+        font-size:19px;
+    }
 }
 
 

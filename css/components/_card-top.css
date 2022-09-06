@@ -38,8 +38,7 @@
     line-height: 21px;
 }
 
-.card-top .card-body .card-title,
-.card-link {
+.card-top .card-body .card-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
